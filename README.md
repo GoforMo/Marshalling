@@ -31,7 +31,7 @@ You have many RTL files and have corresponding testbenches. When you want to ver
 
 Yes there is.
 
-I made a multi-language, multi-platform Makefile-based system to accelerate HDL design work flow.  This is a fast and scalable system where new targets can be seamlessly added for further analysis with other tools. Evaluation includes generating wave diagrams, elaborated and synthesized schematics in both SystemVerilog and VHDL. With Makefile and Linux environment you can execute different targets in different shells (license permitting) in the same working directory. 
+I made a multi-language, multi-platform Makefile-based system to accelerate HDL design work flow.  This is a fast and scalable system where new targets can be seamlessly added for further analysis with other tools. It is a good learning aid and can double as a teaching tool. Evaluation includes generating wave diagrams, elaborated and synthesized schematics in both SystemVerilog and VHDL. With Makefile and Linux environment you can execute different targets in different shells (license permitting) in the same working directory. 
 
 In this example a marshalling component (parallelizer) is presented using both shift register (sreg) and multiplexer (mux) architectures in SystemVerilog (SV) and VHDL. 
 
